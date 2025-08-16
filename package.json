@@ -1,0 +1,20 @@
+{
+  "name": "devops-final-helloworld",
+  "version": "1.0.0",
+  "description": "Hola Mundo web para práctica final DevOps",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --coverage --passWithNoTests"
+  },
+  "keywords": [],
+  "author": "Jesús Manuel Sierra Santos",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
